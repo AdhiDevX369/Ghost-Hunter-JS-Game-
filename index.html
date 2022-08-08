@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GHOST HUNTER</title>
+    <link rel="icon" href="ghost.png"/>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body onload="createBoxes();" onkeyup="keyCheck(event);" class="body">
+    <div class="background" id="background">
+        <div id="score" class="score">0</div>
+        <img id="boy" class="boy" src="Run (1).png" />
+
+        <div id="endGame" class="endGame">
+            <div>Game Over</div>
+            <div>Your Score</div>
+            <div id="endScore">0</div>
+            <button onclick="newGame();" class="newGame">New Game</button>
+        </div>
+
+        <div id="welcome" class="welcome">
+            <div class="a1">Welcome</div>
+            <div class="a1">To</div>
+            <div class="a4">Ghost Hunter</div>
+            <div class="a3">Escape from the Fireball To win</div>
+            <div class="a2">Press spacebar to JUMP</div>            
+            <div class="a2">Press enter key to RUN</div>
+        </div>
+
+        <div id="finish" class="finish">
+            <div class="a4">Congratulaions</div>
+            <div class="a4">You will Escaped!!!!</div>
+            <button onclick="newGame();" class="newGame2">Play Game</button>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="s.js"></script>
+</body>
+
+</html>
